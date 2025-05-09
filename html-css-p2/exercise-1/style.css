@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    /* 5x1 */
+    background-color: black;
+    text-align: center;
+}
+.box {
+    color: white;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: #333;
+}
+@media screen and (min-width: 768px){
+    .container {
+        flex-direction: row;
+    }
+    .box {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
