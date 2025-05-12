@@ -1,0 +1,25 @@
+
+body {
+  background-image: url('images/galaxy.jpg');
+  background-size: cover;        /* scale image to cover entire area */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;  /* prevent tiling */
+  color: white;
+}  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+  height: 100vh;           /* full viewport height */
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+h2 {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 0.5rem;
+}
